@@ -36,4 +36,7 @@ body {
   .text-black {
     @apply text-[#202020] text-sm not-italic font-normal leading-[normal];
   }
+  .correct_state {
+    @apply text-[#03A63C] text-xs not-italic font-normal leading-[normal];
+  }
 }
