@@ -39,4 +39,7 @@ body {
   .correct_state {
     @apply text-[#03A63C] text-xs not-italic font-normal leading-[normal];
   }
+  .incorrect_state {
+    @apply text-[#C73E1D] text-xs not-italic font-normal leading-[normal];
+  }
 }
