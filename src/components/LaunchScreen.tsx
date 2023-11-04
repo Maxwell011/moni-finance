@@ -1,4 +1,8 @@
+import { useRouter } from "next/navigation";
+
 const LaunchScreen = () => {
+  const router = useRouter();
+
   return (
     <section>
       {/* Top content */}
@@ -50,7 +54,12 @@ const LaunchScreen = () => {
 
       {/* Buttons */}
       <div className='flex gap-4 flex-col'>
-        <button className='flex w-[278px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
+        <button
+          className='flex w-[278px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'
+          onClick={() => {
+            router.push("/signin");
+          }}
+        >
           Sign in
         </button>
         <button className='text-[#0476D9] text-base not-italic font-normal leading-[normal] border border-[color:var(--primary-100,#0476D9)] flex w-[278px] justify-center items-center gap-4 p-3 rounded-[10px] border-solid '>
