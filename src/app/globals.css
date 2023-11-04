@@ -25,3 +25,24 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer utilities {
+  .btn_blue {
+    @apply text-white rounded-[10px] bg-[#0476D9];
+  }
+  .btn_white {
+    @apply border rounded-[10px] border-solid border-[#0476D9] bg-[#0476D9];
+  }
+  .text-black {
+    @apply text-[#202020] text-sm not-italic font-normal leading-[normal];
+  }
+  .correct_state {
+    @apply text-[#03A63C] text-xs not-italic font-normal leading-[normal];
+  }
+  .incorrect_state {
+    @apply text-[#C73E1D] text-xs not-italic font-normal leading-[normal];
+  }
+  .inactive-btn {
+    @apply text-white text-base not-italic font-normal leading-[normal] rounded-[10px] bg-[#C9CDD2];
+  }
+}
