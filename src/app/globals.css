@@ -27,5 +27,10 @@ body {
 }
 
 @layer utilities {
-  
+  .btn_blue{
+    @apply text-white rounded-[10px] bg-[#0476D9];
+  }
+  .btn_white{
+    @apply border rounded-[10px] border-solid border-[#0476D9] bg-[#0476D9];
+  }
 }
