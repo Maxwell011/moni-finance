@@ -42,4 +42,7 @@ body {
   .incorrect_state {
     @apply text-[#C73E1D] text-xs not-italic font-normal leading-[normal];
   }
+  .inactive-btn {
+    @apply text-white text-base not-italic font-normal leading-[normal] rounded-[10px] bg-[#C9CDD2];
+  }
 }
