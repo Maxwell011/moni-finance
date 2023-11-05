@@ -1,13 +1,12 @@
-"use client";
-
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const LaunchScreen = () => {
-  const router = useRouter();
-
   return (
     <section>
       {/* Top content */}
+      <div className='first'>
+        <div className='second'></div>
+      </div>
       <div className=''>
         <svg
           className='w-16 h-16 flex-shrink-0'
@@ -49,22 +48,19 @@ const LaunchScreen = () => {
           </defs>
         </svg>
 
-        <h2 className='text-white text-[32px] not-italic font-semibold leading-[normal]'>
+        <h2 className='text-gray-900 text-[32px] not-italic font-semibold leading-[normal]'>
           Welcome
         </h2>
       </div>
 
       {/* Buttons */}
       <div className='flex gap-4 flex-col'>
-        <button
-          className='flex w-[278px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'
-          onClick={() => {
-            router.push("/signin");
-          }}
-        >
-          Sign in
-        </button>
         <button className='text-[#0476D9] text-base not-italic font-normal leading-[normal] border border-[color:var(--primary-100,#0476D9)] flex w-[278px] justify-center items-center gap-4 p-3 rounded-[10px] border-solid '>
+          <Link href='/login' legacyBehavior>
+            <a>Login in</a>
+          </Link>
+        </button>
+        <button className='flex w-[278px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
           Sign up
         </button>
       </div>
