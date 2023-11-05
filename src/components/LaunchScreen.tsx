@@ -4,6 +4,9 @@ const LaunchScreen = () => {
   return (
     <section>
       {/* Top content */}
+      <div className='first'>
+        <div className='second'></div>
+      </div>
       <div className=''>
         <svg
           className='w-16 h-16 flex-shrink-0'
@@ -45,7 +48,7 @@ const LaunchScreen = () => {
           </defs>
         </svg>
 
-        <h2 className='text-white text-[32px] not-italic font-semibold leading-[normal]'>
+        <h2 className='text-gray-900 text-[32px] not-italic font-semibold leading-[normal]'>
           Welcome
         </h2>
       </div>
