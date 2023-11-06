@@ -1,4 +1,4 @@
-import LaunchScreen from "@/components/LaunchScreen";
+import LaunchScreen from "@/app/components/LaunchScreen";
 
 export default function Home() {
   return (
