@@ -1,4 +1,4 @@
-const SignIn = () => {
-  return <div>SignIn</div>;
+const signUp = () => {
+  return <div>Signup</div>;
 };
-export default SignIn;
+export default signUp;
