@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 const LaunchScreen = () => {
@@ -64,8 +65,14 @@ const LaunchScreen = () => {
         >
           Login
         </button>
-        <button className='flex w-[278px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
-          Sign up
+        <button
+          className='flex w-[278px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'
+          onClick={() => router.push("/signup")}
+        >
+          {/* <Link href='/signUp' legacyBehavior>
+            Sign up
+          </Link> */}
+          Sign Up
         </button>
       </div>
     </section>
