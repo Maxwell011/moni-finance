@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer utilities {
+  .label {
+    @apply text-[#28374B] text-sm not-italic font-normal leading-[normal];
+  }
   .btn_blue {
     @apply text-white rounded-[10px] bg-[#0476D9];
   }
@@ -20,5 +23,8 @@
   }
   .inactive-btn {
     @apply text-white text-base not-italic font-normal leading-[normal] rounded-[10px] bg-[#C9CDD2];
+  }
+  .input-style {
+    @apply border flex items-center gap-2 self-stretch p-3 rounded-[7px] border-solid border-[#28374B];
   }
 }
