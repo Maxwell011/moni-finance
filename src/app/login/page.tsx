@@ -1,7 +1,7 @@
 const Login = () => {
   return (
     <>
-      <div className=''>
+      <div className='mx-[41px] my-0'>
         <h2 className='text-[#28374B] text-[32px] not-italic font-semibold leading-[normal] mb-10'>
           Log in
         </h2>
