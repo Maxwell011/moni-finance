@@ -1,7 +1,5 @@
 "use client";
-
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 const LaunchScreen = () => {
   const router = useRouter();
@@ -59,20 +57,15 @@ const LaunchScreen = () => {
 
       {/* Buttons */}
       <div className='flex gap-4 flex-col'>
-        <button
-          className='text-[#0476D9] text-base not-italic font-normal leading-[normal] border border-[color:var(--primary-100,#0476D9)] flex w-[278px] justify-center items-center gap-4 p-3 rounded-[10px] border-solid '
-          onClick={() => router.push("/login")}
-        >
-          Login
+        <button className='text-[#0476D9] text-base not-italic font-normal leading-[normal] border border-[color:var(--primary-100,#0476D9)] flex w-[278px] justify-center items-center gap-4 p-3 rounded-[10px] border-solid '>
+          <Link href='/login' legacyBehavior>
+            Login
+          </Link>{" "}
         </button>
-        <button
-          className='flex w-[278px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'
-          onClick={() => router.push("/signup")}
-        >
-          {/* <Link href='/signUp' legacyBehavior>
+        <button className='flex w-[278px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
+          <Link href='/signup' legacyBehavior>
             Sign up
-          </Link> */}
-          Sign Up
+          </Link>
         </button>
       </div>
     </section>
