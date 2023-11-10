@@ -2,7 +2,6 @@
 import Link from "next/link";
 
 const LaunchScreen = () => {
-  const router = useRouter();
   return (
     <section>
       {/* Top content */}
