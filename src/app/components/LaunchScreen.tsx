@@ -7,10 +7,11 @@ const LaunchScreen = () => {
     <section>
       {/* Top content */}
       <div className=' first'>
-        <div className='second'></div>
+        <div className='second'>
+          {/* <MoneyIcon /> */}
+        </div>
       </div>
       {/* w-[470.001px] h-[492.959px] rotate-[-30.108deg] absolute top-[-220px] rounded-[492.959px] -left-11 bg-[#0476d9] */}
-      {/* <MoneyIcon /> */}
 
       {/* Buttons */}
       <div className='flex gap-4 flex-col mr-[-21px] ml-[100px] mt-[350px] mb-0'>
