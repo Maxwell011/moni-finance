@@ -1,8 +1,17 @@
 import { Formik, Form, useField, useFormikContext } from "formik";
 import * as Yup from "yup";
 
-const MyTextInput = ({ label, ...props }) => {
-  const [field, meta] = useField(props);
+interface MyTextInputProps {
+  label: string;
+  name: string;
+  id?: string;
+  type: string;
+  placeholder: string;
+}
+
+const MyTextInput: React.FC<MyTextInputProps> = ({ label, ...props }) => {
+  // const [field, meta] = useField(props);
+  const [field, meta] = useField({ ...props, type: props.type });
   return (
     <>
       <label
@@ -59,7 +68,7 @@ const Login = () => {
             <div className='flex flex-col gap-1'>
               <MyTextInput
                 label='Password'
-                name='email'
+                name='password'
                 type='password'
                 placeholder='Enter Your Password'
               />
