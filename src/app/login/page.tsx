@@ -1,92 +1,58 @@
-import { Formik, Form, useField, useFormikContext } from "formik";
-import * as Yup from "yup";
+// import React from "react";
+// import { Formik, Form, Field, ErrorMessage } from "formik";
+// import * as Yup from "yup";
 
-interface MyTextInputProps {
-  label: string;
-  name: string;
-  id?: string;
-  type: string;
-  placeholder: string;
-}
+// const validationSchema = Yup.object({
+//   email: Yup.string().email().required("Email is required"),
+//   password: Yup.string()
+//     .required("Password is required")
+//     .min(4, "Password is too short - should be 4 chars min"),
+// });
 
-const MyTextInput: React.FC<MyTextInputProps> = ({ label, ...props }) => {
-  // const [field, meta] = useField(props);
-  const [field, meta] = useField({ ...props, type: props.type });
-  return (
-    <>
-      <label
-        className='text-[#28374B] text-xl not-italic font-normal leading-[normal]'
-        htmlFor={props.id || props.name}
-      >
-        {label}
-      </label>
-      <input
-        className='w-full sm:w-36 h-10 sm:h-[41px] input-style mb-4'
-        {...field}
-        {...props}
-      />
-      {meta.touched && meta.error ? (
-        <div className='error'>{meta.error}</div>
-      ) : null}
-    </>
-  );
-};
+// const initialValues = {
+//   email: "",
+//   password: "",
+// };
 
-const Login = () => {
-  return (
-    <>
-      <div className='mx-[41px] my-0'>
-        <h2 className='text-[#28374B] text-[32px] not-italic font-semibold leading-[normal] mb-10'>
-          Log in
-        </h2>
-        <Formik
-          initialValues={{
-            email: "",
-            password: "",
-          }}
-          validationSchema={Yup.object({
-            email: Yup.string()
-              .email("Invalid email address`")
-              .required("Required"),
-            password: Yup.string()
-              .required("Password is required")
-              .min(4, "Password is too short - should be 4 chars min"),
-          })}
-          onSubmit={(values) => {
-            console.log(values);
-          }}
-        >
-          <Form>
-            <div className='flex flex-col gap-1'>
-              <MyTextInput
-                label='Email'
-                name='email'
-                type='text'
-                placeholder='Enter Your Email'
-              />
-            </div>
-            <div className='flex flex-col gap-1'>
-              <MyTextInput
-                label='Password'
-                name='password'
-                type='password'
-                placeholder='Enter Your Password'
-              />
-            </div>
-            <h3 className='text-xl text-[#0476D9] font-normal leading-[normal] mt-4 mb-8'>
-              Forget Password?
-            </h3>
+// const Login = () => {
+//   return (
+//     <>
+//       <h1>Sign in to continue</h1>
+//       <Formik
+//         initialValues={initialValues}
+//         validationSchema={validationSchema}
+//         onSubmit={(values: any) => {
+//           console.log(values);
+//         }}
+//       >
+//         <Form>
+//           <div className='form-row'>
+//             <label htmlFor='email'>Email</label>
+//             <Field type='email' name='email' id='email' className='input' />
+//             <ErrorMessage name='email' component='span' className='error' />
+//           </div>
 
-            <button
-              type='submit'
-              className='inactive-btn flex justify-center items-center gap-4 text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] sm:w-36 w-full'
-            >
-              Login in
-            </button>
-          </Form>
-        </Formik>
-      </div>
-    </>
-  );
-};
-export default Login;
+//           <div className='form-row'>
+//             <label htmlFor='password'>Password</label>
+//             <Field
+//               type='password'
+//               name='password'
+//               id='password'
+//               className='input'
+//             />
+//             <ErrorMessage name='password' component='span' className='error' />
+//           </div>
+
+//           <button
+//             type='submit'
+//             className='inactive-btn flex justify-center items-center gap-4 text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] sm:w-36 w-full'
+//           >
+//             Login in
+//           </button>
+//         </Form>
+//       </Formik>
+//     </>
+//   );
+// };
+
+// export default Login;
