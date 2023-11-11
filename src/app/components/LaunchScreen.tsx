@@ -6,11 +6,11 @@ const LaunchScreen = () => {
   return (
     <section>
       {/* Top content */}
-      <div className='first'>
+      <div className='w-[470.001px] h-[492.959px] rotate-[-30.108deg] absolute top-[-220px] rounded-[492.959px] -left-11 bg-[#0476d9] first'>
         <div className='second'></div>
       </div>
 
-    <MoneyIcon/>
+      <MoneyIcon />
 
       {/* Buttons */}
       <div className='flex gap-4 flex-col'>
