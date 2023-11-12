@@ -1,9 +1,9 @@
-import LaunchScreen from "@/app/components/LaunchScreen";
+import LaunchScreen from "./components/LaunchScreen";
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24'>
+    <div className='flex min-h-screen flex-col items-center justify-between p-24'>
       <LaunchScreen />
-    </main>
+    </div>
   );
 }
