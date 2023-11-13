@@ -36,13 +36,18 @@ import Link from "next/link";
 const LaunchScreen = () => {
   return (
     <>
-    <div>LaunchScreen</div>
-    <button>
-      <Link href='/login' legacyBehavior>
-        Login
-      </Link>{" "}
-    </button>
+      <div>LaunchScreen</div>
+      <button>
+        <Link href='/login' legacyBehavior>
+          Login
+        </Link>{" "}
+      </button>
+      <button>
+        <Link href='/signup' legacyBehavior>
+          Sign up{" "}
+        </Link>
+      </button>
     </>
-  )
-}
-export default LaunchScreen
+  );
+};
+export default LaunchScreen;
