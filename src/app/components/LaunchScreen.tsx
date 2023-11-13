@@ -31,6 +31,8 @@
 // };
 // export default LaunchScreen;
 
+import Link from "next/link";
+
 const LaunchScreen = () => {
   return (
     <div>LaunchScreen</div>
