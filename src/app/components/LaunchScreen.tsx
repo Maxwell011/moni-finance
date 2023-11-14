@@ -39,12 +39,12 @@ const LaunchScreen = () => {
       <div>LaunchScreen</div>
       <button>
         <Link href='/login' legacyBehavior>
-          Login
+          <a>Login</a>
         </Link>{" "}
       </button>
       <button>
         <Link href='/signup' legacyBehavior>
-          Sign up{" "}
+          <a>Sign up</a>{" "}
         </Link>
       </button>
     </>
