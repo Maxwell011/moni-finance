@@ -123,9 +123,9 @@
 // };
 // export default Login;
 
-const page = () => {
+const login = () => {
   return (
-    <div>page</div>
+    <div>login</div>
   )
 }
-export default page
+export default login
