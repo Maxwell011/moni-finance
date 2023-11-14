@@ -40,14 +40,18 @@ const LaunchScreen = () => {
       <button>
         <Link href='/login' legacyBehavior>
           <a>Login</a>
-        </Link>{" "}
-      </button>
-      {/* <button>
-        <Link href='/signup' legacyBehavior>
-          <a>Sign up</a>{" "}
         </Link>
-      </button> */}
+      </button>
+      <div>
+        <button>
+          <Link href='/signup' legacyBehavior>
+            <a>Sign up</a>
+          </Link>
+        </button>
+      </div>
     </>
   );
 };
+
 export default LaunchScreen;
+
