@@ -42,11 +42,11 @@ const LaunchScreen = () => {
           <a>Login</a>
         </Link>{" "}
       </button>
-      <button>
+      {/* <button>
         <Link href='/signup' legacyBehavior>
           <a>Sign up</a>{" "}
         </Link>
-      </button>
+      </button> */}
     </>
   );
 };
