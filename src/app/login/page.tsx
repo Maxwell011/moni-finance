@@ -23,7 +23,7 @@ const Login = () => {
           console.log(values);
         }}
       >
-        {(formik) => {
+        {(formik: { errors: any; touched: any; isValid: any; dirty: any; }) => {
           const { errors, touched, isValid, dirty } = formik;
           return (
             <div className='container'>
