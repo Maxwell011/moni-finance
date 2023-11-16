@@ -1,7 +1,7 @@
 const Signup = () => {
   return (
     <>
-      <div className=''>
+      <div className='flex flex-col justify-center gap-1 mx-[41px] my-0'>
         <h2 className='text-[#28374B] text-[32px] not-italic font-semibold leading-[normal] mb-10'>
           Sign Up
         </h2>
