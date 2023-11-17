@@ -27,4 +27,7 @@
   .input-style {
     @apply border flex items-center gap-2 self-stretch p-3 rounded-[7px] border-solid border-[#28374B];
   }
+  .border-bottom {
+    @apply border-b-[#939BA5] border-b border-solid;
+  }
 }
