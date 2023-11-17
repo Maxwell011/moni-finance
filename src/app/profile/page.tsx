@@ -47,9 +47,9 @@ const Profile = () => {
                   <Image
                     src={previewImage}
                     alt='Profile Preview'
-                    width={24}
-                    height={24}
-                    className='rounded-[50px]'
+                    width={100}
+                    height={100}
+                    className='w-[100px] h-[100px] flex justify-center items-center m-[10px] rounded-[50px] bg-[#035EAE] drop-shadow-2xl'
                   />
                 ) : (
                   <div className='flex justify-center items-center'>
