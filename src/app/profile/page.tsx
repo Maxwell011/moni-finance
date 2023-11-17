@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import ProfileInput from "../components/ProfileInput";
 
 const Profile = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -72,6 +73,8 @@ const Profile = () => {
         className='hidden'
         onChange={handleImageChange}
       />
+
+      <ProfileInput />
     </>
   );
 };
