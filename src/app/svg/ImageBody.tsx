@@ -51,5 +51,5 @@ const ImageBody = () => {
       </svg>
     </div>
   );
-}
-export default ImageBody
+};
+export default ImageBody;
