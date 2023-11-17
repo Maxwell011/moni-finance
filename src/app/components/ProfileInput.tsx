@@ -38,6 +38,9 @@ const ProfileInput = () => {
             />
           </div>
         </form>
+        <button className='inactive-btn flex justify-center items-center gap-4 text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] sm:w-36 w-full mt-12'>
+          Complete
+        </button>
       </section>
     </>
   );
