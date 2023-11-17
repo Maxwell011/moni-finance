@@ -24,7 +24,7 @@ const Profile = () => {
                   stroke-linejoin='round'
                 />
               </svg>
-              <div className='second'>
+              <div className='second mx-px my-[5px]'>
                 <ImageBody />
               </div>
             </div>
