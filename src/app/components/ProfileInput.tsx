@@ -34,6 +34,7 @@ const ProfileInput = () => {
             </label>
             <input
               type='date'
+              name="birth"
               placeholder='Enter your date of birth'
               className='border-bottom flex items-center gap-2 self-stretch px-0 py-3 mb-6 focus:outline-none focus:ring-0 focus:border-b-[#035EAE]'
             />
