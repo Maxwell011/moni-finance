@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <section>
         <div className=''>
-          <div className='images'>
+          <div className='icons flex justify-around'>
             <Image
               src='/home.svg'
               alt='Home Image'
@@ -27,6 +27,11 @@ const Footer = () => {
               height={24}
               priority
             />
+          </div>
+          <div className='flex justify-around'>
+            <h3>Home</h3>
+            <h3>send</h3>
+            <h3>Profile</h3>
           </div>
         </div>
       </section>
