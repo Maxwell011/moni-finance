@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <section>
         <div className=''>
-          <div className='icons flex justify-around'>
+          <div className='icons flex justify-around items-center'>
             <Image
               src='/home.svg'
               alt='Home Image'
@@ -28,7 +28,7 @@ const Footer = () => {
               priority
             />
           </div>
-          <div className='flex justify-around'>
+          <div className='flex justify-around items-center'>
             <h3 className='text-[#0476D9] text-sm'>Home</h3>
             <h3 className='text-[#28374B] text-sm'>send</h3>
             <h3 className='text-[#28374B] text-sm'>Profile</h3>
