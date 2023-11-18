@@ -29,9 +29,9 @@ const Footer = () => {
             />
           </div>
           <div className='flex justify-around'>
-            <h3>Home</h3>
-            <h3>send</h3>
-            <h3>Profile</h3>
+            <h3 className='text-[#0476D9]'>Home</h3>
+            <h3 className='text-[#28374B]'>send</h3>
+            <h3 className='text-[#28374B]'>Profile</h3>
           </div>
         </div>
       </section>
