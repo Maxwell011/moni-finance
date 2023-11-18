@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 
 export default function HomePageLayout({
@@ -7,9 +8,9 @@ export default function HomePageLayout({
 }) {
   return (
     <>
-    <Nav/>
+      <Nav />
       {children}
-    
+      <Footer />
     </>
   );
 }
