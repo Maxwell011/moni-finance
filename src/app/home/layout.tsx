@@ -1,12 +1,15 @@
+import Nav from "../components/Nav";
+
 export default function HomePageLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-  return(
+  return (
     <>
-    {children}
-    <h2></h2>
+    <Nav/>
+      {children}
+    
     </>
-  )
+  );
 }
