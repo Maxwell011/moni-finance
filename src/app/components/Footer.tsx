@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <section>
-        <div className=''>
+        <div className='flex flex-col gap-1'>
           <div className='icons flex justify-around items-center'>
             <Image
               src='/home.svg'
