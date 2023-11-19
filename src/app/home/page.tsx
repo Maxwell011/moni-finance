@@ -1,5 +1,6 @@
 import Balance from "../components/Balance";
 import Features from "../components/Features";
+import Transactions from "../components/Transactions";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
         <div>
           <Balance />
           <Features />
+          <Transactions />
         </div>
       </section>
     </>
