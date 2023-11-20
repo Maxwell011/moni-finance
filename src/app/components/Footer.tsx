@@ -30,7 +30,7 @@ const Footer = () => {
             />
           </div>
           <div className='flex justify-around items-center'>
-            <h3 className='text-[#0476D9] text-sm'>
+            <h3 className='text-[#28374B]  text-sm'>
               <Link href='/home'>Home</Link>
             </h3>
             <h3 className='text-[#28374B] text-sm'>
