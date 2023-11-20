@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <section className='w-full h-[80px] shadow-[0px_0px_4px_0px_rgba(0,0,0,0.15)] rounded-[40px_40px_0px_0px] mt-8'>
         <div className='flex flex-col gap-1'>
-          <div className='icons flex justify-around items-center mt-[25px]'>
+          <div className='icons flex justify-around items-center mt-[15px]'>
             <Image
               src='/home.svg'
               alt='Home Image'
