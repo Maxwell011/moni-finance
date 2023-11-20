@@ -4,13 +4,36 @@ import Transactions from "../components/Transactions";
 const Send = () => {
   return (
     <>
-    <section>
-      <div>
-
-      </div>
-      <Transactions/>
-      <Footer />
-    </section>
+      <section>
+        <div>
+          <div>
+            <h2></h2>
+            <p></p>
+          </div>
+          <div>
+            <h2></h2>
+            <p></p>
+          </div>
+          <div>
+            <h2></h2>
+            <p></p>
+          </div>
+          <div>
+            <h2></h2>
+            <p></p>
+          </div>
+          <div>
+            <h2></h2>
+            <p></p>
+          </div>
+          <div>
+            <h2></h2>
+            <p></p>
+          </div>
+        </div>
+        <Transactions />
+        <Footer />
+      </section>
     </>
   );
 };
