@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -29,9 +30,15 @@ const Footer = () => {
             />
           </div>
           <div className='flex justify-around items-center'>
-            <h3 className='text-[#0476D9] text-sm'>Home</h3>
-            <h3 className='text-[#28374B] text-sm'>send</h3>
-            <h3 className='text-[#28374B] text-sm'>Profile</h3>
+            <h3 className='text-[#0476D9] text-sm'>
+              <Link href='/home'>Home</Link>
+            </h3>
+            <h3 className='text-[#28374B] text-sm'>
+              <Link href='/send'>Send</Link>
+            </h3>
+            <h3 className='text-[#28374B] text-sm'>
+              <Link href='/'>Profile</Link>
+            </h3>
           </div>
         </div>
       </section>
