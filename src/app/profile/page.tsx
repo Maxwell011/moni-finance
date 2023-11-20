@@ -1,82 +1,53 @@
-"use client";
-import { useState } from "react";
 import Image from "next/image";
-import ProfileInput from "../components/ProfileInput";
 
 const Profile = () => {
-  const [selectedImage, setSelectedImage] = useState(null);
-  const [previewImage, setPreviewImage] = useState(null);
-
-  const handleImageChange = (event: any) => {
-    const file = event.target.files[0];
-    setSelectedImage(file);
-    setPreviewImage(URL.createObjectURL(file));
-  };
-
-  const handleClick = () => {
-    document.getElementById("profileImageInput").click();
-  };
-
   return (
     <>
-      <section className='bg-[#035EAE] w-full h-[246px] lg:w-full'>
-        <div className='w-full h-[189px] rounded-[500px_500px_0px_0px] bg-white absolute top-[58px]'>
-          <div className='flex items-center justify-center mt-12'>
-            <div className='first'>
-              <svg
-                className='absolute'
-                xmlns='http://www.w3.org/2000/svg'
-                width='120'
-                height='120'
-                viewBox='0 0 120 120'
-                fill='none'
-              >
-                <circle
-                  cx='60'
-                  cy='60'
-                  r='59.5'
-                  stroke='#035EAE'
-                  strokeLinejoin='round'
-                />
-              </svg>
-              <div
-                className='second w-[100px] h-[100px] flex justify-center items-center m-[10px] rounded-[50px] bg-[#035EAE] 
-                drop-shadow-2xl cursor-pointer'
-                onClick={handleClick}
-              >
-                {previewImage ? (
-                  <Image
-                    src={previewImage}
-                    alt='Profile Preview'
-                    width={100}
-                    height={100}
-                    className='w-[100px] h-[100px] flex justify-center items-center m-[10px] rounded-[50px] bg-[#035EAE] drop-shadow-2xl'
-                  />
-                ) : (
-                  <div className='flex justify-center items-center'>
-                    <Image
-                      src='/camera.svg'
-                      width={24}
-                      height={24}
-                      alt='Picture of the user'
-                    />
-                  </div>
-                )}
-              </div>
-            </div>
+      <section>
+        <div>
+          <div className='flex w-[312px] justify-between items-center border m-[31px] px-6 py-3 rounded-[7px] border-solid border-[#28374B] h-10'>
+            <h3 className='text-sm text-[#28374b]'>Account Settings</h3>
+            <Image
+              src='/setting-2.svg'
+              alt='Arrow right'
+              width={14}
+              height={14}
+            />
+          </div>
+          <div className='flex w-[312px] justify-between items-center border m-[31px] px-6 py-3 rounded-[7px] border-solid border-[#28374B] h-10'>
+            <h3 className='text-sm text-[#28374b]'>Security Settings</h3>
+            <Image
+              src='/key.svg'
+              alt='Picture of the author'
+              width={14}
+              height={14}
+            />
+          </div>
+          <div className='flex w-[312px] justify-between items-center border m-[31px] px-6 py-3 rounded-[7px] border-solid border-[#28374B] h-10'>
+            <h3 className='text-sm text-[#28374b]'>Customization Settings</h3>
+            <Image src='/edit.svg' alt='Arrow right' width={14} height={14} />
+          </div>
+          <div className='flex w-[312px] justify-between items-center border m-[31px] px-6 py-3 rounded-[7px] border-solid border-[#28374B] h-10'>
+            <h3 className='text-sm text-[#28374b]'>Help and Support Center</h3>
+            <Image
+              src='/message-question.svg'
+              alt='Arrow right'
+              width={14}
+              height={14}
+            />
+          </div>
+          <div className='flex w-[312px] justify-between items-center border m-[31px] px-6 py-3 rounded-[7px] border-solid border-[#F82828] text-[#F82828] h-10'>
+            <h3 className='text-[#F82828]'>Deactivate Account</h3>
+            <Image
+              src='/lock-slash.svg'
+              alt='Arrow right'
+              width={14}
+              height={14}
+            />
           </div>
         </div>
       </section>
-      <input
-        id='profileImageInput'
-        type='file'
-        className='hidden'
-        onChange={handleImageChange}
-      />
-
-      <ProfileInput />
     </>
   );
 };
-
 export default Profile;
