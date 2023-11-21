@@ -14,7 +14,7 @@ const Profile = () => {
             <h3 className='text-sm text-[#28374b]'>Account Settings</h3>
             <Image
               src='/setting-2.svg'
-              alt='Arrow right'
+              alt='Settings Icon'
               width={14}
               height={14}
             />
@@ -25,13 +25,13 @@ const Profile = () => {
           </div>
           <div className='flex w-[312px] justify-between items-center border m-[31px] px-6 py-3 rounded-[7px] border-solid border-[#28374B] h-10'>
             <h3 className='text-sm text-[#28374b]'>Customization Settings</h3>
-            <Image src='/edit.svg' alt='Arrow right' width={14} height={14} />
+            <Image src='/edit.svg' alt='Edit image' width={14} height={14} />
           </div>
           <div className='flex w-[312px] justify-between items-center border m-[31px] px-6 py-3 rounded-[7px] border-solid border-[#28374B] h-10'>
             <h3 className='text-sm text-[#28374b]'>Help and Support Center</h3>
             <Image
               src='/message-question.svg'
-              alt='Arrow right'
+              alt='message question'
               width={14}
               height={14}
             />
@@ -40,7 +40,7 @@ const Profile = () => {
             <h3 className='text-[#F82828]'>Deactivate Account</h3>
             <Image
               src='/lock-slash.svg'
-              alt='Arrow right'
+              alt='lock icon'
               width={14}
               height={14}
             />
