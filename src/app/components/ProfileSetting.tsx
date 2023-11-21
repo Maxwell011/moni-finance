@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import ProfileInput from "./ProfileInput";
+import React from "react";
 
 const ProfileSetting = () => {
   const [selectedImage, setSelectedImage] = useState(null);
