@@ -37,7 +37,7 @@ const Footer = () => {
               <Link href='/send'>Send</Link>
             </h3>
             <h3 className='text-[#28374B] text-sm'>
-              <Link href='/'>Profile</Link>
+              <Link href='/profile'>Profile</Link>
             </h3>
           </div>
         </div>
