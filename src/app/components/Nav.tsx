@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <>
       <section>
-        <div className='flex items-center justify-between mx-6 mt-[7px] mb-2.5'>
+        <div className='flex items-center justify-between mx-6 mt-[7px] mb-2.5 ml-10'>
           <HamburgerButton />
           <h2 className='text-[#28374B] text-base font-semibold'>Hello John</h2>
           <Image
