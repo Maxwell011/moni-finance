@@ -19,7 +19,7 @@ const Features = () => {
             <div className='feature-blue'>
               <Image
                 src='/add-square.svg'
-                alt='send image'
+                alt='add image'
                 width={16}
                 height={16}
                 priority
@@ -28,7 +28,7 @@ const Features = () => {
             <div className='feature-blue'>
               <Image
                 src='/receipt-text.svg'
-                alt='user profile image'
+                alt='receipt image'
                 width={16}
                 height={16}
                 priority
