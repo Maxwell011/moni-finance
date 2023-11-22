@@ -35,7 +35,7 @@ const Features = () => {
             </div>
           </div>
           <div className='flex justify-around items-center'>
-            <h3 className='text-[#28374B] text-sm'>send</h3>
+            <h3 className='text-[#28374B] text-sm'><Link></Link></h3>
             <h3 className='text-[#28374B] text-sm'>Top-Up</h3>
             <h3 className='text-[#28374B] text-sm'>Bills</h3>
           </div>
