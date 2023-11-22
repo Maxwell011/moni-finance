@@ -38,7 +38,7 @@ const Features = () => {
             </div>
           </div>
           <div className='flex justify-around items-center'>
-            <h3 className='text-[#28374B] text-sm'><Link href="send">Send</Link></h3>
+            <h3 className='text-[#28374B] text-sm'><Link href="/send">Send</Link></h3>
             <h3 className='text-[#28374B] text-sm'>Top-Up</h3>
             <h3 className='text-[#28374B] text-sm'>Bills</h3>
           </div>
@@ -55,7 +55,7 @@ const Features = () => {
             <div className='feature-yellow'>
               <Image
                 src='/sort.svg'
-                alt='send image'
+                alt='sort image'
                 width={16}
                 height={16}
                 priority
