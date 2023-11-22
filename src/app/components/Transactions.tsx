@@ -31,7 +31,7 @@ const Transactions = () => {
               </div>
             </div>
             <div className='flex gap-[5px] mx-[27px] -my-3'>
-              <div className='w-[35px] h-[35px] rounded-2xl bg-orange-600 flex items-center justify-center'>
+              <div className='w-[35px] h-[35px] rounded-2xl bg-[#EEEEEE4D] flex items-center justify-center'>
                 <p>C</p>
               </div>
               <div className='flex gap-28 items-center'>
