@@ -8,7 +8,7 @@ const Features = () => {
         <div className='flex flex-col gap-1'>
           <div className='icons flex justify-around items-center'>
             <div className='feature-blue'>
-              <Link>
+              <Link href="/send">
               <Image
                 src='/send-2a.svg'
                 alt='send Image'
