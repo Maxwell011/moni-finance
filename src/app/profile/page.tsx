@@ -7,7 +7,7 @@ const Profile = () => {
       <section>
         <div className='flex items-center gap-20 m-8'>
           <HamburgerButton />
-          <h1 className='text-[#28374b] text-base'>Profile Settings</h1>
+          <h1 className='text-[#28374b] text-base'>Account Settings</h1>
         </div>
         <div>
           <div className='flex w-[312px] justify-between items-center border m-[31px] px-6 py-3 rounded-[7px] border-solid border-[#28374B] h-10 cursor-pointer'>
