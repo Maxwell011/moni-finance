@@ -11,7 +11,7 @@ const Profile = () => {
         </div>
         <div>
           <div className='flex w-[312px] justify-between items-center border m-[31px] px-6 py-3 rounded-[7px] border-solid border-[#28374B] h-10 cursor-pointer'>
-            <h3 className='text-sm text-[#28374b]'>Account Settings</h3>
+            <h3 className='text-sm text-[#28374b]'>Profile Settings</h3>
             <Image
               src='/setting-2.svg'
               alt='Settings Icon'
