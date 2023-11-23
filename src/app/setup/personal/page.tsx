@@ -1,3 +1,12 @@
+import Image from "next/image";
+
 export default function PersonalInformation() {
-  return <div>This is where you can add name</div>;
+  return (
+    <>
+      <section>
+        <Image src='/arrow-left.svg' alt='Arrow left' width={24} height={24} />
+        <div></div>
+      </section>
+    </>
+  );
 }
