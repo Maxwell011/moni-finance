@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const page = () => {
+export default function Setup() {
   return (
     <>
       <section>
@@ -17,7 +17,9 @@ const page = () => {
 
           <div className='flex flex-col items-center gap-8'>
             <button className='flex w-[278px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
-              Set up Account
+              <Link href='/setup/personal' legacyBehavior>
+                Set up Account
+              </Link>
             </button>
             <button className='text-[#0476D9] text-base font-normal leading-[normal] border border-solid border-[#0476D9] flex w-[278px] justify-center items-center gap-4 p-3 rounded-[10px]'>
               <Link href='/home' legacyBehavior>
@@ -29,5 +31,4 @@ const page = () => {
       </section>
     </>
   );
-};
-export default page;
+}
