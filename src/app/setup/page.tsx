@@ -12,6 +12,11 @@ const page = () => {
             dashboard but you will not be able to transact until you complete
             the process.
           </p>
+
+          <div>
+            <button className="">Set up Account</button>
+            <button className="">Skip for now</button>
+          </div>
         </div>
       </section>
     </>
