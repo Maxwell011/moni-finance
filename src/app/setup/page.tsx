@@ -14,8 +14,12 @@ const page = () => {
           </p>
 
           <div>
-            <button className="">Set up Account</button>
-            <button className="">Skip for now</button>
+            <button className='flex w-[278px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
+              Set up Account
+            </button>
+            <button className='text-[#0476D9] text-base font-normal leading-[normal] border border-solid border-[#0476D9] flex w-[278px] justify-center items-center gap-4 p-3 rounded-[10px]'>
+              Skip for now
+            </button>
           </div>
         </div>
       </section>
