@@ -42,7 +42,7 @@ export default function PersonalInformation() {
           />
           <p>Please provide a valid phone number</p>
           <button className='flex w-[278px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
-            <Link href='/setup/' legacyBehavior>
+            <Link href='/setup/address' legacyBehavior>
               Next
             </Link>
           </button>
