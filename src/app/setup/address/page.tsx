@@ -1,11 +1,24 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function Address() {
+  const router = useRouter();
   return (
     <>
       <section>
-        <Image src='/arrow-left.svg' alt='Arrow left' width={24} height={24} />
+        <div
+          className='cursor-pointer'
+          onClick={() => router.push("/setup/personal")}
+        >
+          <Image
+            src='/arrow-left.svg'
+            alt='Arrow left'
+            width={24}
+            height={24}
+          />
+        </div>
         <div>
           <p className='text-sm text-[#5e6978]'>Step 2 of 4</p>
           <h1 className='text-2xl text-[#28374B]'>Address Information</h1>
