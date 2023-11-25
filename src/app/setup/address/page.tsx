@@ -21,9 +21,9 @@ export default function Address() {
           />
         </div>
         <div>
-          <p className='text-sm text-[#5e6978] mb-4'>Step 2 of 4</p>
+          <p className='text-sm text-[#5e6978] mb-2'>Step 2 of 4</p>
           <h1 className='text-2xl text-[#28374B] mb-2'>Address Information</h1>
-          <p className='text-sm text-[#939BA5] mb-[30px]'>
+          <p className='text-sm text-[#939BA5] mb-[23px]'>
             Please fill in your current residential address. We will use this to
             verify and ensure the safety of your account
           </p>
