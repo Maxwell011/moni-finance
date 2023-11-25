@@ -7,7 +7,7 @@ export default function Address() {
   const router = useRouter();
   return (
     <>
-      <section>
+      <section className='mx-[41px] my-[30px]'>
         <div
           className='cursor-pointer'
           onClick={() => router.push("/setup/personal")}
@@ -17,12 +17,13 @@ export default function Address() {
             alt='Arrow left'
             width={24}
             height={24}
+            className='mb-6'
           />
         </div>
         <div>
-          <p className='text-sm text-[#5e6978]'>Step 2 of 4</p>
-          <h1 className='text-2xl text-[#28374B]'>Address Information</h1>
-          <p className='text-sm text-[#939BA5]'>
+          <p className='text-sm text-[#5e6978] mb-4'>Step 2 of 4</p>
+          <h1 className='text-2xl text-[#28374B] mb-2'>Address Information</h1>
+          <p className='text-sm text-[#939BA5] mb-[30px]'>
             Please fill in your current residential address. We will use this to
             verify and ensure the safety of your account
           </p>
