@@ -7,7 +7,7 @@ export default function PersonalInformation() {
   const router = useRouter();
   return (
     <>
-      <section className='m-[41px]'>
+      <section className='mx-[41px] my-[30px]'>
         <div className='cursor-pointer' onClick={() => router.push("/setup")}>
           <Image
             src='/arrow-left.svg'
