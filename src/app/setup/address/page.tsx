@@ -61,7 +61,7 @@ export default function Address() {
             type='text'
             name='country'
             placeholder='Enter Country'
-            className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[25px]'
+            className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[40px]'
           />
           <button className='flex w-[294px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
             <Link href='/setup/' legacyBehavior>
