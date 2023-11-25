@@ -34,23 +34,23 @@ export default function Identification() {
             alt='Document image'
             width={212.22}
             height={175.383}
-            className='mb-6'
+            className='mb-7 ml-[50px]'
           />
           <div className=''>
-            <div className='flex w-[312px] justify-between items-center border rounded-[7px] border-solid border-[#28374B] h-10 cursor-pointer'>
-              <h3 className='text-sm text-[#28374b]'>Profile Settings</h3>
+            <div className='flex w-[312px] justify-between items-center border rounded-[7px] border-solid border-[#28374B] h-10 cursor-pointer mb-6 p-4'>
+              <h3 className='text-sm text-[#28374b]'>Your Valid Id</h3>
               <Image
-                src='/setting-2.svg'
+                src='/stickynote.svg'
                 alt='Settings Icon'
                 width={14}
                 height={14}
-                className='hover:animate-spin'
+                className='hover:animate-spin '
               />
             </div>
-            <div className='flex w-[312px] justify-between items-center border rounded-[7px] border-solid border-[#28374B] h-10 cursor-pointer'>
+            <div className='flex w-[312px] justify-between items-center border rounded-[7px] border-solid border-[#28374B] h-10 cursor-pointer mb-11 p-4'>
               <h3 className='text-sm text-[#28374b]'>Your Utility Bill</h3>
               <Image
-                src='/setting-2.svg'
+                src='/folder-cross.svg'
                 alt='Settings Icon'
                 width={14}
                 height={14}
@@ -58,7 +58,7 @@ export default function Identification() {
               />
             </div>
           </div>
-          <button className='flex w-[294px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
+          <button className='flex w-[312px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
             <Link href='/setup/' legacyBehavior>
               Next
             </Link>
