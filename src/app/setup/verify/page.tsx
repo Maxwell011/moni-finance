@@ -23,7 +23,7 @@ export default function VerifyFace() {
           />
         </div>
         <div>
-          <p className='text-sm text-[#5e6978] mb-2'>Step 3 of 4</p>
+          <p className='text-sm text-[#5e6978] mb-2'>Step 4 of 4</p>
           <h1 className='text-2xl text-[#28374B] mb-2'>
             Identification Information
           </h1>
