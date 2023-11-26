@@ -1,7 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import FaceVerification from "../../svg/FaceVerification";
 import Link from "next/link";
 
 export default function VerifyFace() {
