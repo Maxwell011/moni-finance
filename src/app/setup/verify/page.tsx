@@ -14,7 +14,7 @@ export default function VerifyFace() {
           onClick={() => router.push("/setup/identification")}
         >
           <Image
-            src='/arrow-left.svg'
+            src='/Group.svg'
             alt='Arrow left'
             width={24}
             height={24}
