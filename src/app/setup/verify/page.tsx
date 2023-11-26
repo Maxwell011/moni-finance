@@ -30,7 +30,11 @@ export default function VerifyFace() {
             Let verify your identity
           </p>
 
-          <div className='w-[278px] h-[366px] fill-[linear-gradient(0deg,rgba(127,247,247,0.20)_0%,#7FF7F7_100%)] opacity-20 rounded-md'></div>
+          <div className='w-[278px] h-[366px] fill-[linear-gradient(0deg,rgba(127,247,247,0.20)_0%,#7FF7F7_100%)] opacity-20 rounded-md'>
+            <div className="w-[222.855px] h-[278.403px] bg-[#06e9ee]">
+              
+            </div>
+          </div>
 
           <button className='flex w-[312px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
             <Link href='/' legacyBehavior>
