@@ -1,7 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import FaceVerification from "../../svg/FaceVerification";
 import Link from "next/link";
 
 export default function VerifyFace() {
@@ -30,6 +29,19 @@ export default function VerifyFace() {
           <p className='text-sm text-[#939BA5] mb-[23px]'>
             Let verify your identity
           </p>
+
+          <div className='w-[278px] h-[366px] fill-[linear-gradient(0deg,rgba(127,247,247,0.20)_0%,#7FF7F7_100%)] opacity-20 rounded-md'>
+            <div className='w-[222.855px] h-[278.403px] bg-[#06e9ee]'>
+              <Image
+                src='/Group.svg'
+                alt='Arrow left'
+                width={24}
+                height={24}
+                className='mb-6 bg-[#06e9ee]'
+              />
+            </div>
+          </div>
+
           <button className='flex w-[312px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
             <Link href='/' legacyBehavior>
               Get Started
