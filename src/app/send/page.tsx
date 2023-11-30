@@ -8,7 +8,7 @@ const Send = () => {
       <section>
         <div className='flex items-center gap-20 m-8'>
           <HamburgerButton />
-          <h1 className='text-[#28374b] text-base'>Account Settings</h1>
+          <h1 className='text-[#28374b] text-base'>Payment Options</h1>
         </div>{" "}
         <div>
           <div className='flex gap-5 items-center justify-center mb-5'>
