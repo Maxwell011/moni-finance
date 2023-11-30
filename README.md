@@ -75,40 +75,13 @@ For more information on the importance of a professional README for your reposit
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
-<details>
-  <summary>Client</summary>
   <ul>
     <li><a href="https://nextjs.org/">Next Js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
     <li><a href="https://www.mongodb.com/">MongoDB</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>TailwindCSS</summary>
-  <ul>
     <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
     <li><a href="https://www.mongodb.com/">MongoDB</a></li>
   </ul>
-</details>
 
 <!-- Features -->
 
