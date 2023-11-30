@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
-import Nav from "../components/Nav";
 import Transactions from "../components/Transactions";
+import HamburgerButton from "../svg/Hamburger";
 
 const Send = () => {
   return (
