@@ -246,7 +246,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project kindly follow and contact us let us work together 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -266,9 +266,9 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[Can I make changes and update the project?]**
 
-  - [Answer_1]
+  - [Yes of course]
 
 - **[Question_2]**
 
