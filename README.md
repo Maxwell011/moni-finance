@@ -144,6 +144,10 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- vscode
+- Terminal
+- Browser
+
 <!--
 Example command:
 
@@ -161,7 +165,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  https://github.com/Maxwell011/moni-finance.git
 ```
 --->
 
