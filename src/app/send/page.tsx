@@ -6,7 +6,10 @@ const Send = () => {
   return (
     <>
       <section>
-        <Nav/>
+        <div className='flex items-center gap-20 m-8'>
+          <HamburgerButton />
+          <h1 className='text-[#28374b] text-base'>Account Settings</h1>
+        </div>{" "}
         <div>
           <div className='flex gap-5 items-center justify-center mb-5'>
             <div className='w-[146px] h-20 rounded-[7px] flex flex-col items-center justify-center gap-1 bg-[#E4F3FF] shadow-[1px_4px_15px_0px_rgba(3,94,174,0.10)]'>
