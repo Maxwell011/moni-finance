@@ -116,9 +116,9 @@ For more information on the importance of a professional README for your reposit
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Able to transfer funds]**
+- **[Able to pay bills]**
+- **[Manage Finance]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
