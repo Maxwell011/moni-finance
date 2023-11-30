@@ -2,8 +2,8 @@
 
 <!--
 !!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
+This README is an example of how you could professionally present your codebase.
+Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored.
 
 You should modify this file to match your project and remove sections that don't apply.
 
@@ -148,51 +148,29 @@ In order to run this project you need:
 - Terminal
 - Browser
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
   https://github.com/Maxwell011/moni-finance.git
 ```
---->
 
 ### Install
 
-Install this project with:
-
-<!--
-Example command:
+Install the project dependency with:
 
 ```sh
-  cd my-project
-  gem install
+  npm install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
-  rails server
+  npm run dev
 ```
---->
 
 ### Run tests
 
