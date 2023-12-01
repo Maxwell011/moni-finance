@@ -30,13 +30,13 @@ export default function VerifyFace() {
             Let verify your identity
           </p>
 
-          <div className='w-[312px] flex items-center justify-center mx-0 my-[30px] fill-[linear-gradient(0deg,rgba(127,247,247,0.20)_0%,#7FF7F7_100%)] opacity-20 rounded-md'>
-            <div className='w-[222.855px] h-[278.403px] bg-[#06e9ee]'>
+          <div className='w-[312px] flex items-center justify-center mx-0 my-[30px] fill-[linear-gradient(0deg,rgba(127,247,247,0.20)_0%,#7FF7F7_100%)] opacity-20 pt-[15.18px] pb-[72.42px] px-[27.57px] rounded-[20px]'>
+            <div className='w-[222.855px] h-[278.403px] bg-[#131b1c] flex items-center justify-center'>
               <Image
                 src='/Group.svg'
                 alt='Arrow left'
-                width={24}
-                height={24}
+                width={172.8}
+                height={249.496}
                 className='mb-6 bg-[#06e9ee]'
               />
             </div>
