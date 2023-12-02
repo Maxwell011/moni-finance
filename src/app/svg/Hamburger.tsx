@@ -65,12 +65,22 @@ function HamburgerButton() {
 
       {isSideNavOpen && (
         <div className='side-nav fixed top-0 left-0 w-[355px] h-full bg-gray-200 transform transition-transform duration-300 ease-in-out translate-x-0'>
-          <button
-            className='absolute top-4 right-4 w-6 h-6 rounded-full bg-gray-500 text-white flex items-center justify-center'
-            onClick={handleCloseClick}
-          >
-            X
-          </button>
+          <div>
+            <button
+              className='absolute top-4 right-4 w-6 h-6 rounded-full bg-gray-500 text-white flex items-center justify-center'
+              onClick={handleCloseClick}
+            >
+              X
+            </button>
+            <h2>Hello Harp</h2>
+            <Image
+              src='/user.svg'
+              alt='Picture of the author'
+              width={24}
+              height={24}
+              priority
+            />
+          </div>
           <div className='mt-10 p-5'>
             <ul className='side-nav-list'>
               <div className='flex flex-row'>
