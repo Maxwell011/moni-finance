@@ -78,14 +78,24 @@ function HamburgerButton() {
                 width={24}
                 height={24}
                 priority
-              />
+                />
               <li className='p-4'>Home</li>
-            </div>
-            <li className='p-4'>Send</li>
-            <li className='p-4'>Profile Settings</li>
-            <li className='p-4'>Transaction History</li>
-            <li className='p-4'>Help and Support Center</li>
-            <li className='p-4'>Log Out</li>
+                </div>
+                <div>
+              <li className='p-4'>Send</li>
+                </div>
+                <div>
+              <li className='p-4'>Profile Settings</li>
+                </div>
+                <div>
+              <li className='p-4'>Transaction History</li>
+                </div>
+                <div>
+              <li className='p-4'>Help and Support Center</li>
+                </div>
+                <div>
+              <li className='p-4'>Log Out</li>
+                </div>
           </ul>
         </div>
       )}
