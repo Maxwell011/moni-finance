@@ -6,12 +6,12 @@ function HamburgerButton() {
   const [isSideNavOpen, setIsSideNavOpen] = useState(false);
 
   const handleHamburgerClick = () => {
-  //   setIsSideNavOpen(!isSideNavOpen);
-  // };
+    setIsSideNavOpen(!isSideNavOpen);
+  };
 
-  // const handleCloseClick = () => {
-  //   setIsSideNavOpen(false);
-  // };
+  const handleCloseClick = () => {
+    setIsSideNavOpen(false);
+  };
 
   return (
     <div>
