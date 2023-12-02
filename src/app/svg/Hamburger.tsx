@@ -71,7 +71,7 @@ function HamburgerButton() {
           >
             X
           </button>
-          <div>
+          <div className='mt-10 p-5'>
             <ul className='side-nav-list'>
               <div className='flex flex-row'>
                 <Image
