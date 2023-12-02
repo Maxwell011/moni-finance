@@ -3,9 +3,9 @@ import { useState } from "react";
 import Image from "next/image";
 
 function HamburgerButton() {
-  // const [isSideNavOpen, setIsSideNavOpen] = useState(false);
+  const [isSideNavOpen, setIsSideNavOpen] = useState(false);
 
-  // const handleHamburgerClick = () => {
+  const handleHamburgerClick = () => {
   //   setIsSideNavOpen(!isSideNavOpen);
   // };
 
