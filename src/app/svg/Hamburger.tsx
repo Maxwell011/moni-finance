@@ -74,7 +74,7 @@ function HamburgerButton() {
             <li className='p-4'>Menu Item 3</li>
           </ul>
         </div>
-      )} }
+      )}}
     </div>
   );
 }
