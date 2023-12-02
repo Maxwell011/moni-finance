@@ -71,7 +71,16 @@ function HamburgerButton() {
             X
           </button>
           <ul className='side-nav-list'>
-            <li className='p-4'>Home</li>
+            <div>
+              <Image
+                src='/home.svg'
+                alt='Home Image'
+                width={24}
+                height={24}
+                priority
+              />
+              <li className='p-4'>Home</li>
+            </div>
             <li className='p-4'>Send</li>
             <li className='p-4'>Profile Settings</li>
             <li className='p-4'>Transaction History</li>
