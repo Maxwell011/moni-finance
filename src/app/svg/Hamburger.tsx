@@ -64,87 +64,89 @@ function HamburgerButton() {
       }
 
       {isSideNavOpen && (
-        <div className='side-nav fixed top-0 left-0 w-80 h-full bg-gray-200 transform transition-transform duration-300 ease-in-out translate-x-0'>
+        <div className='side-nav fixed top-0 left-0 w-[355px] h-full bg-gray-200 transform transition-transform duration-300 ease-in-out translate-x-0'>
           <button
             className='absolute top-4 right-4 w-6 h-6 rounded-full bg-gray-500 text-white flex items-center justify-center'
             onClick={handleCloseClick}
           >
             X
           </button>
-          <ul className='side-nav-list'>
-            <div className='flex flex-row'>
-              <Image
-                src='/home.svg'
-                alt='Home Image'
-                width={24}
-                height={24}
-                priority
-              />
-              <Link href='/home'>
-                <li className='p-4'>Home</li>
-              </Link>
-            </div>
-            <div className='flex flex-row'>
-              <Image
-                src='/send-2.svg'
-                alt='send image'
-                width={24}
-                height={24}
-                priority
-              />
-              <Link href='/send'>
-                <li className='p-4'>Send</li>
-              </Link>
-            </div>
-            <div className='flex flex-row'>
-              <Image
-                src='/user.svg'
-                alt='user profile image'
-                width={24}
-                height={24}
-                priority
-              />
-              <Link href='/profile'>
-                <li className='p-4'>Profile Settings</li>
-              </Link>
-            </div>
-            <div className='flex flex-row'>
-              <Image
-                src='/receipt-text.svg'
-                alt='receipt image'
-                width={24}
-                height={24}
-                priority
-              />
-              <Link href='/transaction'>
-                <li className='p-4'>Transaction History</li>
-              </Link>
-            </div>
-            <div className='flex flex-row'>
-              <Image
-                src='/headphone.svg'
-                alt='receipt image'
-                width={24}
-                height={24}
-                priority
-              />
-              <Link href=''>
-                <li className='p-4'>Help and Support Center</li>
-              </Link>
-            </div>
-            <div className='flex flex-row'>
-              <Image
-                src='/logout.svg'
-                alt='receipt image'
-                width={24}
-                height={24}
-                priority
-              />
-              <Link href=''>
-                <li className='p-4'>Log Out</li>
-              </Link>
-            </div>
-          </ul>
+          <div>
+            <ul className='side-nav-list'>
+              <div className='flex flex-row'>
+                <Image
+                  src='/home.svg'
+                  alt='Home Image'
+                  width={24}
+                  height={24}
+                  priority
+                />
+                <Link href='/home'>
+                  <li className='p-4'>Home</li>
+                </Link>
+              </div>
+              <div className='flex flex-row'>
+                <Image
+                  src='/send-2.svg'
+                  alt='send image'
+                  width={24}
+                  height={24}
+                  priority
+                />
+                <Link href='/send'>
+                  <li className='p-4'>Send</li>
+                </Link>
+              </div>
+              <div className='flex flex-row'>
+                <Image
+                  src='/user.svg'
+                  alt='user profile image'
+                  width={24}
+                  height={24}
+                  priority
+                />
+                <Link href='/profile'>
+                  <li className='p-4'>Profile Settings</li>
+                </Link>
+              </div>
+              <div className='flex flex-row'>
+                <Image
+                  src='/receipt-text.svg'
+                  alt='receipt image'
+                  width={24}
+                  height={24}
+                  priority
+                />
+                <Link href='/transaction'>
+                  <li className='p-4'>Transaction History</li>
+                </Link>
+              </div>
+              <div className='flex flex-row'>
+                <Image
+                  src='/headphone.svg'
+                  alt='receipt image'
+                  width={24}
+                  height={24}
+                  priority
+                />
+                <Link href=''>
+                  <li className='p-4'>Help and Support Center</li>
+                </Link>
+              </div>
+              <div className='flex flex-row'>
+                <Image
+                  src='/logout.svg'
+                  alt='receipt image'
+                  width={24}
+                  height={24}
+                  priority
+                />
+                <Link href=''>
+                  <li className='p-4'>Log Out</li>
+                </Link>
+              </div>
+            </ul>
+          </div>
         </div>
       )}
     </div>
