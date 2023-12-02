@@ -22,7 +22,7 @@ function HamburgerButton() {
         height={24}
         priority
       />
-      {/* <button
+      { <button
         className='flex items-center justify-center w-14 h-14 p-0 rounded-full bg-transparent border-0 transition duration-200 ease-in-out cursor-pointer hover:bg-gray-800 focus:outline-none focus-visible:bg-gray-800'
         onClick={handleHamburgerClick}
       >
@@ -74,7 +74,7 @@ function HamburgerButton() {
             <li className='p-4'>Menu Item 3</li>
           </ul>
         </div>
-      )} */}
+      )} }
     </div>
   );
 }
