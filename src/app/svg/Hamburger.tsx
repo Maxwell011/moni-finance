@@ -56,7 +56,7 @@ function HamburgerButton() {
               className='bg-red-500'
               rx='0.75'
               x='3'
-              y='16.25'
+              y='24.25'
             />
           </svg>
         </button>
@@ -71,7 +71,7 @@ function HamburgerButton() {
             X
           </button>
           <ul className='side-nav-list'>
-            <div>
+            <div className='flex flex-row'>
               <Image
                 src='/home.svg'
                 alt='Home Image'
@@ -81,7 +81,7 @@ function HamburgerButton() {
               />
               <li className='p-4'>Home</li>
             </div>
-            <div>
+            <div className='flex flex-row'>
               <Image
                 src='/send-2.svg'
                 alt='send image'
@@ -91,7 +91,7 @@ function HamburgerButton() {
               />
               <li className='p-4'>Send</li>
             </div>
-            <div>
+            <div className='flex flex-row'>
               <Image
                 src='/user.svg'
                 alt='user profile image'
@@ -101,20 +101,34 @@ function HamburgerButton() {
               />
               <li className='p-4'>Profile Settings</li>
             </div>
-            <div>
+            <div className='flex flex-row'>
               <Image
                 src='/receipt-text.svg'
                 alt='receipt image'
-                width={16}
-                height={16}
+                width={24}
+                height={24}
                 priority
               />
               <li className='p-4'>Transaction History</li>
             </div>
-            <div>
+            <div className='flex flex-row'>
+              <Image
+                src='/headphone.svg'
+                alt='receipt image'
+                width={24}
+                height={24}
+                priority
+              />
               <li className='p-4'>Help and Support Center</li>
             </div>
-            <div>
+            <div className='flex flex-row'>
+              <Image
+                src='/logout.svg'
+                alt='receipt image'
+                width={24}
+                height={24}
+                priority
+              />
               <li className='p-4'>Log Out</li>
             </div>
           </ul>
