@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function HamburgerButton() {
   const [isSideNavOpen, setIsSideNavOpen] = useState(false);
@@ -79,7 +80,9 @@ function HamburgerButton() {
                 height={24}
                 priority
               />
-              <li className='p-4'>Home</li>
+              <Link href='/home'>
+                <li className='p-4'>Home</li>
+              </Link>
             </div>
             <div className='flex flex-row'>
               <Image
@@ -89,7 +92,9 @@ function HamburgerButton() {
                 height={24}
                 priority
               />
-              <li className='p-4'>Send</li>
+              <Link href='/send'>
+                <li className='p-4'>Send</li>
+              </Link>
             </div>
             <div className='flex flex-row'>
               <Image
@@ -99,7 +104,9 @@ function HamburgerButton() {
                 height={24}
                 priority
               />
-              <li className='p-4'>Profile Settings</li>
+              <Link href='/profile'>
+                <li className='p-4'>Profile Settings</li>
+              </Link>
             </div>
             <div className='flex flex-row'>
               <Image
@@ -109,7 +116,9 @@ function HamburgerButton() {
                 height={24}
                 priority
               />
-              <li className='p-4'>Transaction History</li>
+              <Link href='/transaction'>
+                <li className='p-4'>Transaction History</li>
+              </Link>
             </div>
             <div className='flex flex-row'>
               <Image
@@ -119,7 +128,9 @@ function HamburgerButton() {
                 height={24}
                 priority
               />
-              <li className='p-4'>Help and Support Center</li>
+              <Link href=''>
+                <li className='p-4'>Help and Support Center</li>
+              </Link>
             </div>
             <div className='flex flex-row'>
               <Image
@@ -129,7 +140,9 @@ function HamburgerButton() {
                 height={24}
                 priority
               />
-              <li className='p-4'>Log Out</li>
+              <Link href=''>
+                <li className='p-4'>Log Out</li>
+              </Link>
             </div>
           </ul>
         </div>
