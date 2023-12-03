@@ -64,7 +64,7 @@ function HamburgerButton() {
       }
 
       {isSideNavOpen && (
-        <div className='side-nav fixed top-0 left-0 w-[355px] h-full bg-gray-200 transform transition-transform duration-300 ease-in-out translate-x-0'>
+        <div className='side-nav fixed top-0 left-0 w-[336px] h-full bg-gray-200 transform transition-transform duration-300 ease-in-out translate-x-0 shadow-[0px_4px_15px_0px_rgba(0,0,0,0.15)]bg-white'>
           <div className='flex justify-around mt-5 '>
             <button
               className='w-6 h-6 rounded-full text-[#28374B] bg-white border-[#28374B] border-[solid]'
