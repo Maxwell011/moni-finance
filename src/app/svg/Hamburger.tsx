@@ -92,7 +92,7 @@ function HamburgerButton() {
                   priority
                 />
                 <Link href='/home'>
-                  <li className='p-4'>Home</li>
+                  <li className='p-4 text-[#28374B]'>Home</li>
                 </Link>
               </div>
               <div className='flex flex-row'>
@@ -104,7 +104,7 @@ function HamburgerButton() {
                   priority
                 />
                 <Link href='/send'>
-                  <li className='p-4'>Send</li>
+                  <li className='p-4  text-[#28374B]'>Send</li>
                 </Link>
               </div>
               <div className='flex flex-row'>
@@ -116,7 +116,7 @@ function HamburgerButton() {
                   priority
                 />
                 <Link href='/profile'>
-                  <li className='p-4'>Profile Settings</li>
+                  <li className='p-4  text-[#28374B]'>Profile Settings</li>
                 </Link>
               </div>
               <div className='flex flex-row'>
@@ -128,7 +128,7 @@ function HamburgerButton() {
                   priority
                 />
                 <Link href='/transaction'>
-                  <li className='p-4'>Transaction History</li>
+                  <li className='p-4 text-[#28374B]'>Transaction History</li>
                 </Link>
               </div>
               <div className='flex flex-row'>
@@ -140,7 +140,9 @@ function HamburgerButton() {
                   priority
                 />
                 <Link href=''>
-                  <li className='p-4'>Help and Support Center</li>
+                  <li className='p-4 text-[#28374B]'>
+                    Help and Support Center
+                  </li>
                 </Link>
               </div>
               <div className='flex flex-row'>
@@ -152,7 +154,7 @@ function HamburgerButton() {
                   priority
                 />
                 <Link href=''>
-                  <li className='p-4'>Log Out</li>
+                  <li className='p-4 text-[#28374B]'>Log Out</li>
                 </Link>
               </div>
             </ul>
