@@ -8,7 +8,7 @@ const Transactions = () => {
           <div className='flex justify-between mx-[35px] my-[26px]'>
             <div className=''>Transactions</div>
             <div className=''>
-              <Link href='/transactions'>View all</Link>
+              <Link href='/transaction'>View all</Link>
             </div>
           </div>
           <div className='flex flex-col gap-[40px]'>
