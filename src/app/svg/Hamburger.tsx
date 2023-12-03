@@ -65,9 +65,9 @@ function HamburgerButton() {
 
       {isSideNavOpen && (
         <div className='side-nav fixed top-0 left-0 w-[355px] h-full bg-gray-200 transform transition-transform duration-300 ease-in-out translate-x-0'>
-          <div>
+          <div className='flex justify-around mt-5'>
             <button
-              className='absolute top-4 right-4 w-6 h-6 rounded-full bg-gray-500 text-white flex items-center justify-center'
+              className='w-6 h-6 rounded-full text-white'
               onClick={handleCloseClick}
             >
               X
@@ -154,7 +154,7 @@ function HamburgerButton() {
                   priority
                 />
                 <Link href=''>
-                  <li className='p-4 text-[#28374B]'>Log Out</li>
+                  <li className='p-4 text-[#28374B] text-sm'>Log Out</li>
                 </Link>
               </div>
             </ul>
