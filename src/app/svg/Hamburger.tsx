@@ -17,51 +17,13 @@ function HamburgerButton() {
   return (
     <div>
       <Image
+        onClick={handleHamburgerClick}
         src='/menu.svg'
         alt='Picture of the author'
         width={24}
         height={24}
         priority
       />
-      {
-        <button
-          className='flex items-center justify-center w-14 h-14 p-0 rounded-full bg-transparent border-0 transition duration-200 ease-in-out cursor-pointer hover:bg-gray-800 focus:outline-none focus-visible:bg-gray-800'
-          onClick={handleHamburgerClick}
-        >
-          <svg
-            className='w-3/4'
-            aria-hidden='true'
-            viewBox='0 0 24 24'
-            xmlns='http://www.w3.org/2000/svg'
-            fill='none'
-          >
-            <rect
-              width='18'
-              height='1.5'
-              className='bg-red-500'
-              rx='0.75'
-              x='3'
-              y='6.25'
-            />
-            <rect
-              width='18'
-              height='1.5'
-              className='bg-red-500'
-              rx='0.75'
-              x='3'
-              y='11.25'
-            />
-            <rect
-              width='18'
-              height='1.5'
-              className='bg-red-500'
-              rx='0.75'
-              x='3'
-              y='24.25'
-            />
-          </svg>
-        </button>
-      }
 
       {isSideNavOpen && (
         <div className='side-nav fixed top-0 left-0 w-[336px] h-full bg-white transform transition-transform duration-300 ease-in-out translate-x-0 shadow-[0px_4px_15px_0px_rgba(0,0,0,0.15)]bg-white'>
@@ -74,7 +36,7 @@ function HamburgerButton() {
             </button>
             <h2>Hello Harp</h2>
             <Image
-              src='/user.svg'
+              src='/Ellipse 5.svg'
               alt='Picture of the author'
               width={24}
               height={24}
