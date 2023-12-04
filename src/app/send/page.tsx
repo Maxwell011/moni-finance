@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Transactions from "../components/Transactions";
 import HamburgerButton from "../svg/Hamburger";
+import Link from "next/link";
 
 const Send = () => {
   return (
@@ -13,10 +14,12 @@ const Send = () => {
         <div>
           <div className='flex gap-5 items-center justify-center mb-5'>
             <div className='w-[146px] h-20 rounded-[7px] flex flex-col items-center justify-center gap-1 bg-[#E4F3FF] shadow-[1px_4px_15px_0px_rgba(3,94,174,0.10)]'>
-              <h2 className='text-sm text-[#035EAE]'>Bank Transfer</h2>
-              <p className='text-[#28374b] text-[10px]'>
-                Transfer to other banks
-              </p>
+              <Link href='/send/banktransfer'>
+                <h2 className='text-sm text-[#035EAE]'>Bank Transfer</h2>
+                <p className='text-[#28374b] text-[10px]'>
+                  Transfer to other banks
+                </p>
+              </Link>
             </div>
             <div className='bg-[#fff6db] w-[146px] h-20 rounded-[7px] flex flex-col items-center justify-center gap-1 shadow-[1px_4px_15px_0px_rgba(241,143,1,0.10)]'>
               <h2 className='text-sm text-[#FFC000]'>Credit/Debit Card</h2>
