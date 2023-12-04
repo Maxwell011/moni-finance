@@ -3,6 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import ProfileInput from "../../components/ProfileInput";
 import { useRouter } from "next/navigation";
+import { Toaster, toast } from "sonner";
 
 export default function ProfileSetting() {
   const router = useRouter();
@@ -13,6 +14,7 @@ export default function ProfileSetting() {
     const file = event.target.files[0];
     setSelectedImage(file);
     setPreviewImage(URL.createObjectURL(file));
+    toast.success("Image added successfully!");
   };
 
   const handleClick = () => {
@@ -87,6 +89,8 @@ export default function ProfileSetting() {
       />
 
       <ProfileInput />
+
+      <Toaster position='top-center' richColors />
     </>
   );
 }
