@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import ProfileInput from "../../components/ProfileInput";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function ProfileSetting() {
   const router = useRouter();
@@ -22,6 +22,16 @@ export default function ProfileSetting() {
   return (
     <>
       <section className='bg-[#035EAE] w-full h-[246px] lg:w-full'>
+        <div>
+          <Image
+            src='/arrow-left.svg'
+            alt='Arrow left'
+            width={24}
+            height={24}
+            className='text-white'
+            onClick={() => router.push("/profile")}
+          />
+        </div>
         <div className='w-full h-[189px] rounded-[500px_500px_0px_0px] bg-white absolute top-[58px]'>
           <div className='flex items-center justify-center mt-12'>
             <div className='first'>
@@ -79,4 +89,4 @@ export default function ProfileSetting() {
       <ProfileInput />
     </>
   );
-};
+}
