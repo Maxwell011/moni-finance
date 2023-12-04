@@ -2,8 +2,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import ProfileInput from "../../components/ProfileInput";
+import { useRouter } from "next/router";
 
 export default function ProfileSetting() {
+  const router = useRouter();
   const [selectedImage, setSelectedImage] = useState(null);
   const [previewImage, setPreviewImage] = useState(null);
 
