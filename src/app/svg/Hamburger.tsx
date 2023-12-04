@@ -43,7 +43,7 @@ function HamburgerButton() {
               priority
             />
           </div>
-          <div className='mt-10 p-5'>
+          <div className='mt-10 p-5 ml-5'>
             <ul className='side-nav-list'>
               <div className='flex flex-row'>
                 <Image
