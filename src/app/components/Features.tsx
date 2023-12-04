@@ -29,7 +29,7 @@ const Features = () => {
             </div>
             <div className='feature-blue'>
               <Image
-                src='/receipt-text.svg'
+                src='/receipt-text-blue.svg'
                 alt='receipt image'
                 width={16}
                 height={16}
