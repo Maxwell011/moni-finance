@@ -1,10 +1,12 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import ProfileInput from "./ProfileInput";
-import React from "react";
+import ProfileInput from "../../components/ProfileInput";
+import { useRouter } from "next/navigation";
+import { Toaster, toast } from "sonner";
 
-const ProfileSetting = () => {
+export default function ProfileSetting() {
+  const router = useRouter();
   const [selectedImage, setSelectedImage] = useState(null);
   const [previewImage, setPreviewImage] = useState(null);
 
@@ -12,6 +14,7 @@ const ProfileSetting = () => {
     const file = event.target.files[0];
     setSelectedImage(file);
     setPreviewImage(URL.createObjectURL(file));
+    toast.success("Image added successfully!");
   };
 
   const handleClick = () => {
@@ -21,6 +24,16 @@ const ProfileSetting = () => {
   return (
     <>
       <section className='bg-[#035EAE] w-full h-[246px] lg:w-full'>
+        <div>
+          <Image
+            src='/arrow-left.svg'
+            alt='Arrow left'
+            width={24}
+            height={24}
+            className='text-white'
+            onClick={() => router.push("/profile")}
+          />
+        </div>
         <div className='w-full h-[189px] rounded-[500px_500px_0px_0px] bg-white absolute top-[58px]'>
           <div className='flex items-center justify-center mt-12'>
             <div className='first'>
@@ -76,8 +89,8 @@ const ProfileSetting = () => {
       />
 
       <ProfileInput />
+
+      <Toaster position='top-center' richColors />
     </>
   );
-};
-
-export default ProfileSetting;
+}

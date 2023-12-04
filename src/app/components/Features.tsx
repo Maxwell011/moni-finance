@@ -41,8 +41,12 @@ const Features = () => {
             <h3 className='text-[#28374B] text-sm'>
               <Link href='/send'>Send</Link>
             </h3>
-            <h3 className='text-[#28374B] text-sm'>Top-Up</h3>
-            <h3 className='text-[#28374B] text-sm'>Bills</h3>
+            <Link href='/topup'>
+              <h3 className='text-[#28374B] text-sm'>Top-Up</h3>
+            </Link>
+            <Link href='/bills'>
+              <h3 className='text-[#28374B] text-sm'>Bills</h3>
+            </Link>
           </div>
           <div className='icons flex justify-around items-center'>
             <div className='feature-yellow'>
@@ -74,9 +78,15 @@ const Features = () => {
             </div>
           </div>
           <div className='flex justify-around items-center'>
-            <h3 className='text-[#28374B] text-sm'>Data</h3>
-            <h3 className='text-[#28374B] text-sm'>Airtime</h3>
-            <h3 className='text-[#28374B] text-sm'>Betting</h3>
+            <Link href='/data'>
+              <h3 className='text-[#28374B] text-sm'>Data</h3>
+            </Link>
+            <Link href='/airtime'>
+              <h3 className='text-[#28374B] text-sm'>Airtime</h3>
+            </Link>
+            <Link href='/betting'>
+              <h3 className='text-[#28374B] text-sm'>Betting</h3>
+            </Link>
           </div>
         </div>
       </section>

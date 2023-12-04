@@ -34,18 +34,18 @@ function HamburgerButton() {
             >
               X
             </button>
-            <h2>Hello Harp</h2>
+            <h2 className='text-[#28374B] text-base'>Hello Harp</h2>
             <Image
               src='/Ellipse 5.svg'
               alt='Picture of the author'
-              width={24}
-              height={24}
+              width={40}
+              height={40}
               priority
             />
           </div>
-          <div className='mt-10 p-5'>
+          <div className='mt-[-0.5rem] p-5 ml-5'>
             <ul className='side-nav-list'>
-              <div className='flex flex-row'>
+              <div className='flex flex-row mb-3'>
                 <Image
                   src='/home.svg'
                   alt='Home Image'
@@ -57,7 +57,7 @@ function HamburgerButton() {
                   <li className='p-4 text-[#28374B]'>Home</li>
                 </Link>
               </div>
-              <div className='flex flex-row'>
+              <div className='flex flex-row mb-3'>
                 <Image
                   src='/send-2.svg'
                   alt='send image'
@@ -69,7 +69,7 @@ function HamburgerButton() {
                   <li className='p-4  text-[#28374B]'>Send</li>
                 </Link>
               </div>
-              <div className='flex flex-row'>
+              <div className='flex flex-row mb-3'>
                 <Image
                   src='/user.svg'
                   alt='user profile image'
@@ -81,7 +81,7 @@ function HamburgerButton() {
                   <li className='p-4  text-[#28374B]'>Profile Settings</li>
                 </Link>
               </div>
-              <div className='flex flex-row'>
+              <div className='flex flex-row mb-3'>
                 <Image
                   src='/receipt-text.svg'
                   alt='receipt image'
@@ -93,7 +93,7 @@ function HamburgerButton() {
                   <li className='p-4 text-[#28374B]'>Transaction History</li>
                 </Link>
               </div>
-              <div className='flex flex-row'>
+              <div className='flex flex-row mb-3'>
                 <Image
                   src='/headphone.svg'
                   alt='receipt image'
@@ -107,7 +107,7 @@ function HamburgerButton() {
                   </li>
                 </Link>
               </div>
-              <div className='flex flex-row'>
+              <div className='flex flex-row mb-3'>
                 <Image
                   src='/logout.svg'
                   alt='receipt image'
@@ -116,7 +116,7 @@ function HamburgerButton() {
                   priority
                 />
                 <Link href=''>
-                  <li className='p-4 text-[#28374B] text-sm'>Log Out</li>
+                  <li className='p-4 text-[#F82828] text-sm '>Log Out</li>
                 </Link>
               </div>
             </ul>
