@@ -116,7 +116,7 @@ function HamburgerButton() {
                   priority
                 />
                 <Link href=''>
-                  <li className='p-4 text-[#28374B] text-sm'>Log Out</li>
+                  <li className='p-4 text-[#F82828] text-sm '>Log Out</li>
                 </Link>
               </div>
             </ul>
