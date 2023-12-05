@@ -11,13 +11,15 @@ export default function Loader() {
           </p>
         }
       >
-        <Image
-          src='/Colorful-Logo 1 (1).svg'
-          alt='Document image'
-          width={96}
-          height={83}
-          className=''
-        />
+        <div className='flex items-center justify-center'>
+          <Image
+            src='/Colorful-Logo 1 (1).svg'
+            alt='Document image'
+            width={96}
+            height={83}
+            className=''
+          />
+        </div>
       </Suspense>
     </section>
   );
