@@ -7,17 +7,18 @@ export default function Loader() {
       <Suspense
         fallback={
           <p className='bg-black text-6xl text-red-700'>
-            <Image
-              src='/Colorful-Logo 1 (1).svg'
-              alt='Document image'
-              width={96}
-              height={83}
-              className=''
-            />
             Loading the launch screen
           </p>
         }
-      ></Suspense>
+      >
+        <Image
+          src='/Colorful-Logo 1 (1).svg'
+          alt='Document image'
+          width={96}
+          height={83}
+          className=''
+        />
+      </Suspense>
     </section>
   );
 }
