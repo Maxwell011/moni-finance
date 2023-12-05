@@ -11,7 +11,7 @@ export default function Loader() {
           </p>
         }
       >
-        <div className='flex items-center justify-center'>
+        <div className='absolute -translate-x-2/4 -translate-y-2/4 left-2/4 top-2/4'>
           <Image
             src='/Colorful-Logo 1 (1).svg'
             alt='Document image'
