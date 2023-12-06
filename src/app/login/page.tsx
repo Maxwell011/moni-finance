@@ -121,11 +121,4 @@ export default Login;
 //     </>
 //   );
 // };
-// export default Login;
-//
-// const login = () => {
-//   return (
-//     <div>login</div>
-//   )
-// }
 // export default login
