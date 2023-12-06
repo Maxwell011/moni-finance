@@ -70,7 +70,7 @@ const Features = () => {
             <div className='feature-yellow'>
               <Image
                 src='/money-2.svg'
-                alt='user profile image'
+                alt='money image'
                 width={16}
                 height={16}
                 priority
