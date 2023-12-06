@@ -1,7 +1,7 @@
 import Image from "next/image";
 import HamburgerButton from "../svg/Hamburger";
 import Link from "next/link";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 const Profile = () => {
   return (
@@ -58,7 +58,7 @@ const Profile = () => {
             />
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </section>
     </>
   );
