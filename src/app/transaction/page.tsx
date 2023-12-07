@@ -22,7 +22,7 @@ const Transaction = () => {
             <p className='text-black'>S</p>
           </div>
           <div className='flex gap-28 items-center'>
-            <p className='text-sm text-[#28374b]'>Curtis Daniel</p>
+            <p className='text-sm text-[#f82828]'>Sporty Bet</p>
             <p className='text-[#f82828] text-sm'>+N8,400.00</p>
           </div>
         </div>
