@@ -7,7 +7,6 @@ export default function Loader() {
       <Suspense
         fallback={
           <p className='bg-black text-6xl text-red-700'>
-            Loading the launch screen
           </p>
         }
       >
