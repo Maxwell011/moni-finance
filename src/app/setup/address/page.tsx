@@ -71,7 +71,7 @@ export default function Address() {
             />
           </div>
 
-          <button className='flex w-[294px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
+          <button className='flex w-[294px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9] lg:w-[30%]'>
             <Link href='/setup/identification' legacyBehavior>
               Next
             </Link>

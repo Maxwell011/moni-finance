@@ -44,7 +44,7 @@ export default function Identification() {
                 alt='Settings Icon'
                 width={14}
                 height={14}
-                className='hover:animate-spin '
+                className=''
               />
             </div>
             <div className='flex w-[312px] justify-between items-center border rounded-[7px] border-solid border-[#28374B] h-10 cursor-pointer mb-11 p-4'>
@@ -54,7 +54,7 @@ export default function Identification() {
                 alt='Settings Icon'
                 width={14}
                 height={14}
-                className='hover:animate-spin'
+                className=''
               />
             </div>
           </div>
