@@ -8,7 +8,7 @@ export default function Setup() {
           <h1 className='text-2xl text-[#28374b] text-center mx-[60px] my-4 font-medium '>
             You are almost ready to start transacting
           </h1>
-          <p className='text-sm text-[#939BA5] font-normal text-center mt-0 mb-[55px] mx-[17px]'>
+          <p className='text-sm text-[#939BA5] font-normal text-center mt-0 mb-[55px] mx-[17px] lg:text-[-20px]'>
             To start transacting, you will need to complete your account setup.
             You can choose to skip this process and go straight to your
             dashboard but you will not be able to transact until you complete
