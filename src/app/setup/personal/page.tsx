@@ -52,7 +52,7 @@ export default function PersonalInformation() {
             <input
               type='text'
               placeholder='Enter your phone number'
-              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[45px] lg:w-full'
+              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[45px] lg:w-[30%]'
             />
           </div>
 
