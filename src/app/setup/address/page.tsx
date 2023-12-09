@@ -23,7 +23,7 @@ export default function Address() {
         <div>
           <p className='text-sm text-[#5e6978] mb-2'>Step 2 of 4</p>
           <h1 className='text-2xl text-[#28374B] mb-2'>Address Information</h1>
-          <p className='text-sm text-[#939BA5] mb-[23px]'>
+          <p className='text-sm text-[#939BA5] mb-[23px] lg:text-[18px]'>
             Please fill in your current residential address. We will use this to
             verify and ensure the safety of your account
           </p>
@@ -34,7 +34,7 @@ export default function Address() {
             <input
               type='text'
               placeholder='Enter Your Address'
-              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[20px]'
+              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[20px] lg:w-[30%]'
             />
           </div>
           <div className='flex flex-col gap-1'>
@@ -45,7 +45,7 @@ export default function Address() {
               type='text'
               name='city'
               placeholder='Enter your current city'
-              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[20px]'
+              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[20px] lg:w-[30%]'
             />
           </div>
           <div className='flex flex-col gap-1'>
@@ -56,7 +56,7 @@ export default function Address() {
               type='text'
               name='state'
               placeholder='Enter your state'
-              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[20px]'
+              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[20px] lg:w-[30%]'
             />
           </div>
           <div className='flex flex-col gap-1'>
@@ -67,11 +67,11 @@ export default function Address() {
               type='text'
               name='country'
               placeholder='Enter Country'
-              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[40px]'
+              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[40px] lg:w-[30%]'
             />
           </div>
 
-          <button className='flex w-[294px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
+          <button className='flex w-[294px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9] lg:w-[30%]'>
             <Link href='/setup/identification' legacyBehavior>
               Next
             </Link>

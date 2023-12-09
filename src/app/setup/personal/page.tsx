@@ -20,7 +20,7 @@ export default function PersonalInformation() {
         <div>
           <p className='text-sm text-[#5e6978] mb-4'>Step 1 of 4</p>
           <h1 className='text-2xl text-[#28374B]mb-2'>Personal Information</h1>
-          <p className='text-sm text-[#939BA5] mb-[30px]'>
+          <p className='text-sm text-[#939BA5] mb-[30px] lg:text-[18px]'>
             Welcome to the KYC process. We want to ensure the safety and
             security of all our users
           </p>
@@ -31,7 +31,7 @@ export default function PersonalInformation() {
             <input
               type='text'
               placeholder='Enter Your Full Name'
-              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[25px]'
+              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[25px] lg:w-[30%]'
             />
           </div>
           <div className='flex flex-col gap-1'>
@@ -42,7 +42,7 @@ export default function PersonalInformation() {
               type='date'
               name='birth'
               placeholder='Enter your date of birth'
-              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[25px]'
+              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[25px] lg:w-[30%]'
             />
           </div>
           <div className='flex flex-col gap-1'>
@@ -52,11 +52,11 @@ export default function PersonalInformation() {
             <input
               type='text'
               placeholder='Enter your phone number'
-              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[45px]'
+              className='w-full sm:w-36 h-10 sm:h-[41px] input-style flex items-center border rounded-[7px] border-solid border-[#28374B] mb-[45px] lg:w-[30%]'
             />
           </div>
 
-          <button className='flex w-[294px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9]'>
+          <button className='flex w-[294px] justify-center items-center gap-4 text-white text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] bg-[#0476D9] lg:w-[30%]'>
             <Link href='/setup/address' legacyBehavior>
               Next
             </Link>
