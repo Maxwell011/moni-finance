@@ -1,7 +1,7 @@
 const Signup = () => {
   return (
     <>
-      <div className='flex flex-col justify-center gap-1 mx-[41px] my-0'>
+      <div className='flex flex-col justify-center gap-1 mx-[41px] my-0 lg:absolute lg:-translate-x-2/4 lg:-translate-y-2/4 lg:left-2/4 lg:top-2/4'>
         <h2 className='text-[#28374B] text-[32px] not-italic font-semibold leading-[normal] mb-10'>
           Sign Up
         </h2>
@@ -11,7 +11,7 @@ const Signup = () => {
         <input
           type='text'
           placeholder='Enter Your Email'
-          className='w-full sm:w-36 h-10 sm:h-[41px] input-style mb-4'
+          className='w-full sm:w-36 h-10 sm:h-[41px] input-style mb-4 lg:w-full'
         />
         <label className='sm:text-[#28374B] text-xl not-italic font-normal leading-[normal]'>
           Password
