@@ -82,7 +82,7 @@ const Features = () => {
               <h3 className='text-[#28374B] text-sm'>Data</h3>
             </Link>
             <Link href='/airtime'>
-              <h3 className='text-[#28374B] text-sm'>Airtime</h3>
+              <h3 className='text-[#28374B] text-sm'>Savings</h3>
             </Link>
             <Link href='/betting'>
               <h3 className='text-[#28374B] text-sm'>Betting</h3>
