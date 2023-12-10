@@ -81,7 +81,7 @@ const Features = () => {
             <Link href='/data'>
               <h3 className='text-[#28374B] text-sm'>Data</h3>
             </Link>
-            <Link href='/airtime'>
+            <Link href='/savings'>
               <h3 className='text-[#28374B] text-sm'>Savings</h3>
             </Link>
             <Link href='/betting'>
