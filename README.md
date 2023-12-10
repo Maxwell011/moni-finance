@@ -65,7 +65,7 @@ For more information on the importance of a professional README for your reposit
 
 # 📖 [Money Finance] <a name="about-project"></a>
 
-** Money Finance ** is a...
+Money Finance is a financial app that lets you make transfer and pay bills and manage you finance
 
 ## 🛠 Built With <a name="built-with"></a>
 
