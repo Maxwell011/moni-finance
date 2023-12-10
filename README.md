@@ -65,9 +65,7 @@ For more information on the importance of a professional README for your reposit
 
 # 📖 [Money Finance] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[Money Finance ]** is a...
+** Money Finance ** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
