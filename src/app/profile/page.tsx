@@ -58,7 +58,9 @@ const Profile = () => {
             />
           </div>
         </div>
-        <Footer/>
+        <div className='mt-[185px]'>
+          <Footer />
+        </div>
       </section>
     </>
   );
