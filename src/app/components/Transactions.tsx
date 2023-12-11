@@ -6,7 +6,7 @@ const Transactions = () => {
       <section className=''>
         <div className=''>
           <div className='flex justify-between mx-[35px] my-[26px]'>
-            <div className=''>Transactions</div>
+            <div className=' font-semibold'>Transactions</div>
             <div className=''>
               <Link href='/transaction' className='text-[#035EAE]'>
                 View all
