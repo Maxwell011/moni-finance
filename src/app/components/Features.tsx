@@ -77,7 +77,7 @@ const Features = () => {
               />
             </div>
           </div>
-          <div className='flex justify-around items-center'>
+          <div className='flex justify-around items-center ml-[10px]'>
             <Link href='/data'>
               <h3 className='text-[#28374B] text-sm'>Data</h3>
             </Link>
