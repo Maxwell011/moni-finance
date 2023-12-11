@@ -29,7 +29,7 @@ function HamburgerButton() {
         <div className='side-nav fixed top-0 left-0 w-[336px] h-full bg-white transform transition-transform duration-300 ease-in-out translate-x-0 shadow-[0px_4px_15px_0px_rgba(0,0,0,0.15)]bg-white'>
           <div className='flex justify-around mt-5 '>
             <button
-              className='w-6 h-6 rounded-full text-[#28374B] bg-white border-[#28374B] border-[solid]'
+              className='w-6 h-6 rounded-full text-[#28374B] bg-white border-[#28374B] flex items-center justify-center border-2 border-solid'
               onClick={handleCloseClick}
             >
               X
