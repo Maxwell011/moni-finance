@@ -31,13 +31,19 @@ const Footer = () => {
           </div>
           <div className='flex justify-around items-center'>
             <h3 className='text-[#28374B]  text-sm'>
-              <Link href='/home'>Home</Link>
+              <Link href='/home' className='font-semibold'>
+                Home
+              </Link>
             </h3>
             <h3 className='text-[#28374B] text-sm'>
-              <Link href='/send'>Send</Link>
+              <Link href='/send' className='font-semibold'>
+                Send
+              </Link>
             </h3>
             <h3 className='text-[#28374B] text-sm'>
-              <Link href='/profile'>Profile</Link>
+              <Link href='/profile' className='font-semibold'>
+                Profile
+              </Link>
             </h3>
           </div>
         </div>
