@@ -25,7 +25,7 @@ const Signup = () => {
           Password must be a minimum of eight characters contain at least one
           uppercase letter, one lowercase letter and one number
         </h3>
-        <button className='inactive-btn flex justify-center items-center gap-4 text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] sm:w-36 w-full mt-12 lg:w-[130%]'>
+        <button className='inactive-btn flex justify-center items-center gap-4 text-base not-italic font-normal leading-[normal] p-3 rounded-[10px] sm:w-36 w-full mt-12 lg:w-[130%] hover:bg-[#0476D9]'>
           Sign Up
         </button>
       </div>
