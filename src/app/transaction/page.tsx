@@ -10,7 +10,7 @@ const Transaction = () => {
       <div className='flex flex-col gap-[40px]'>
         <div className='flex gap-[5px] mx-[27px] -my-3'>
           <div className='w-[35px] h-[35px] rounded-2xl bg-[#EEEEEE4D] flex items-center justify-center'>
-            <p className='text-black'>D</p>
+            <p className='text-black font-semibold'>D</p>
           </div>
           <div className='flex gap-28 items-center'>
             <p className='text-sm text-[#28374b] font-semibold'>Dave Martins</p>
@@ -19,7 +19,7 @@ const Transaction = () => {
         </div>
         <div className='flex gap-[5px] mx-[27px] -my-3'>
           <div className='w-[35px] h-[35px] rounded-2xl bg-[#EEEEEE4D]  flex items-center justify-center'>
-            <p className='text-black'>S</p>
+            <p className='text-black font-semibold'>S</p>
           </div>
           <div className='flex gap-28 items-center'>
             <p className='text-sm text-[#f82828] font-semibold'>Sporty Bet</p>
@@ -28,7 +28,7 @@ const Transaction = () => {
         </div>
         <div className='flex gap-[5px] mx-[27px] -my-3'>
           <div className='w-[35px] h-[35px] rounded-2xl bg-[#EEEEEE4D] flex items-center justify-center'>
-            <p className='text-black'>C</p>
+            <p className='text-black font-semibold'>C</p>
           </div>
           <div className='flex gap-28 items-center'>
             <p className='text-sm text-[#28374b] font-semibold'>Scott Daniel</p>
@@ -37,7 +37,7 @@ const Transaction = () => {
         </div>
         <div className='flex gap-[5px] mx-[27px] -my-3'>
           <div className='w-[35px] h-[35px] rounded-2xl bg-[#EEEEEE4D] flex items-center justify-center'>
-            <p className='text-black'>C</p>
+            <p className='text-black font-semibold'>C</p>
           </div>
           <div className='flex gap-28 items-center'>
             <p className='text-sm text-[#28374b] font-semibold'>Chris Daniel</p>
@@ -46,7 +46,7 @@ const Transaction = () => {
         </div>
         <div className='flex gap-[5px] mx-[27px] -my-3'>
           <div className='w-[35px] h-[35px] rounded-2xl bg-[#EEEEEE4D] flex items-center justify-center'>
-            <p className='text-black'>C</p>
+            <p className='text-black font-semibold'>C</p>
           </div>
           <div className='flex gap-28 items-center'>
             <p className='text-sm text-[#28374b] font-semibold'>Clems Miley</p>
