@@ -13,7 +13,7 @@ const Transaction = () => {
             <p className='text-black'>D</p>
           </div>
           <div className='flex gap-28 items-center'>
-            <p className='text-sm text-[#28374b]'>Dave Martins</p>
+            <p className='text-sm text-[#28374b] font-semibold'>Dave Martins</p>
             <p className='text-[#03a63c] text-sm'>+N8,400.00</p>
           </div>
         </div>
@@ -22,7 +22,7 @@ const Transaction = () => {
             <p className='text-black'>S</p>
           </div>
           <div className='flex gap-28 items-center'>
-            <p className='text-sm text-[#f82828]'>Sporty Bet</p>
+            <p className='text-sm text-[#f82828] font-semibold'>Sporty Bet</p>
             <p className='text-[#f82828] text-sm'>+N8,400.00</p>
           </div>
         </div>
@@ -31,7 +31,7 @@ const Transaction = () => {
             <p className='text-black'>C</p>
           </div>
           <div className='flex gap-28 items-center'>
-            <p className='text-sm text-[#28374b]'>Scott Daniel</p>
+            <p className='text-sm text-[#28374b] font-semibold'>Scott Daniel</p>
             <p className='text-[#03a63c] text-sm'>+N9,400.00</p>
           </div>
         </div>
@@ -40,7 +40,7 @@ const Transaction = () => {
             <p className='text-black'>C</p>
           </div>
           <div className='flex gap-28 items-center'>
-            <p className='text-sm text-[#28374b]'>Chris Daniel</p>
+            <p className='text-sm text-[#28374b] font-semibold'>Chris Daniel</p>
             <p className='text-[#03a63c] text-sm'>+N9,400.00</p>
           </div>
         </div>
@@ -49,7 +49,7 @@ const Transaction = () => {
             <p className='text-black'>C</p>
           </div>
           <div className='flex gap-28 items-center'>
-            <p className='text-sm text-[#28374b]'>Clems Miley</p>
+            <p className='text-sm text-[#28374b] font-semibold'>Clems Miley</p>
             <p className='text-[#03a63c] text-sm'>+N9,400.00</p>
           </div>
         </div>
