@@ -39,13 +39,15 @@ const Features = () => {
           </div>
           <div className='flex justify-around items-center mb-4'>
             <h3 className='text-[#28374B] text-sm'>
-              <Link href='/send'>Send</Link>
+              <Link href='/send' className='font-semibold'>
+                Send
+              </Link>
             </h3>
             <Link href='/topup'>
-              <h3 className='text-[#28374B] text-sm'>Top-Up</h3>
+              <h3 className='text-[#28374B] text-sm font-semibold'>Top-Up</h3>
             </Link>
             <Link href='/bills'>
-              <h3 className='text-[#28374B] text-sm'>Bills</h3>
+              <h3 className='text-[#28374B] text-sm font-semibold'>Bills</h3>
             </Link>
           </div>
           <div className='icons flex justify-around items-center'>
@@ -79,13 +81,13 @@ const Features = () => {
           </div>
           <div className='flex justify-around items-center ml-[10px]'>
             <Link href='/data'>
-              <h3 className='text-[#28374B] text-sm'>Data</h3>
+              <h3 className='text-[#28374B] text-sm font-semibold'>Data</h3>
             </Link>
             <Link href='/savings'>
-              <h3 className='text-[#28374B] text-sm'>Savings</h3>
+              <h3 className='text-[#28374B] text-sm font-semibold'>Savings</h3>
             </Link>
             <Link href='/betting'>
-              <h3 className='text-[#28374B] text-sm'>Betting</h3>
+              <h3 className='text-[#28374B] text-sm font-semibold'>Betting</h3>
             </Link>
           </div>
         </div>
