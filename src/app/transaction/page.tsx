@@ -5,7 +5,7 @@ const Transaction = () => {
     <div>
       <div className='flex items-center gap-20 m-8'>
         <HamburgerButton />
-        <h1 className='text-[#28374b] text-base'>All Transactions</h1>
+        <h1 className='text-[#28374b] text-[20px]'>All Transactions</h1>
       </div>
       <div className='flex flex-col gap-[40px]'>
         <div className='flex gap-[5px] mx-[27px] -my-3'>
