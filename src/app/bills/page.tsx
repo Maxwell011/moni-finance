@@ -1,8 +1,10 @@
 const Bills = () => {
   return (
-    <div>
-      <h1>Bills</h1>
-    </div>
+    <>
+      <section>
+        <h1>Bills</h1>
+      </section>
+    </>
   );
 };
 
