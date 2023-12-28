@@ -2,7 +2,7 @@ const TopUp = () => {
   return (
     <>
       <div>
-        Top Up
+        <h1>Top Up</h1>
       </div>
     </>
   );
