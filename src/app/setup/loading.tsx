@@ -14,7 +14,7 @@ export default function Loader() {
         <div className='absolute -translate-x-2/4 -translate-y-2/4 left-2/4 top-2/4'>
           <Image
             src='/Colorful-Logo 1 (1).svg'
-            alt=''
+            alt='loader icon'
             width={96}
             height={83}
             className=''
