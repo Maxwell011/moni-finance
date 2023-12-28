@@ -1,7 +1,7 @@
 export default function BankTransfer() {
   return (
     <>
-      <div>Bank Transfer</div>
+      <h1>Bank Transfer</h1>
     </>
   );
 }
