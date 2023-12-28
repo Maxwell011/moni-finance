@@ -90,6 +90,7 @@ export default function ProfileSetting() {
 
       <ProfileInput />
 
+{/* Added sonner notification */}
       <Toaster position='top-center' richColors />
     </>
   );
