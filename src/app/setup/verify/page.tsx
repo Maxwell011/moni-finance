@@ -34,7 +34,7 @@ export default function VerifyFace() {
             <div className="w-[222.855px] h-[278.403px] bg-[#06E9EE] flex items-center justify-center">
               <Image
                 src="/Group.svg"
-                alt=""
+                alt="group logo"
                 width={172.8}
                 height={249.496}
                 className="mb-6 text-[#06e9ee]"
