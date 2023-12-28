@@ -1,9 +1,11 @@
 const TopUp = () => {
   return (
-    <div>
-      <h1>Top Up</h1>
-    </div>
-  )
-}
+    <>
+      <div>
+        Top Up
+      </div>
+    </>
+  );
+};
 
-export default TopUp
+export default TopUp;
