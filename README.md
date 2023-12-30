@@ -5,20 +5,7 @@
 This README is an example of how you could professionally present your codebase.
 Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored.
 
-You should modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
+You should modify this file to match your project and remove sections that 
 
 OPTIONAL SECTIONS:
 - FAQ
