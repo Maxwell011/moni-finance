@@ -60,6 +60,7 @@ Money Finance is a financial app that lets you make transfer and pay bills and m
 - Able to transfer funds
 - Able to pay bills
 - Manage Finance
+- login to access main app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
