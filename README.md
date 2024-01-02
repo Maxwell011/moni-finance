@@ -75,7 +75,6 @@ Money Finance is a financial app that lets you make transfer and pay bills and m
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
