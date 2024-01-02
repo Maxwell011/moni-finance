@@ -54,8 +54,6 @@ Money Finance is a financial app that lets you make transfer and pay bills and m
 
 ### ✨ Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - Able to transfer funds
 - Able to pay bills
 - Manage Finance
