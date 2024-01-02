@@ -40,8 +40,6 @@ Money Finance is a financial app that lets you make transfer and pay bills and m
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant section
-
   <ul>
     <li><a href="https://nextjs.org/">Next Js</a></li>
     <li><a href="https://expressjs.com/">Express.js</a></li>
